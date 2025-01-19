@@ -588,9 +588,9 @@
     reflect-metadata "^0.2.2"
 
 "@odg/command@*":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@odg/command/-/command-1.9.0.tgz#279bef7fa979695be6219a3f7676c0bce83e68ad"
-  integrity sha512-UxjnzCO/1B0QVrDsoKakoFdzVcPnNxbdpvixhIZJ5TNWV3jmL25vReAl8EvpHqDD4+kEJPcc3Equ5JhxTJmdyw==
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@odg/command/-/command-1.9.2.tgz#e11335e9126792b5fd282a00bececa52ed1d0b47"
+  integrity sha512-9BUqNZ4y3hLxgh/lem1zK6zldYtsGxfonUGlKeLmKaC5R1Ey7E4HEP77x1CkY0nEdmQKF+um/sgmkjmsPS8psQ==
   dependencies:
     "@odg/chemical-x" "*"
     "@odg/exception" "*"
