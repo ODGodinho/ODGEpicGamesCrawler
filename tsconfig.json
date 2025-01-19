@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "paths": {
+            "#types": [ "./@types" ],
+            "#types/*": [ "./@types/*" ],
+            "@app": [ "./src/app" ],
+            "@app/*": [ "./src/app/*" ],
+            "@browser": [ "./src/Browser" ],
+            "@browser/*": [ "./src/Browser/*" ],
+            "@configs": [ "./src/Configs" ],
+            "@configs/*": [ "./src/Configs/*" ],
+            "@engine": [ "./src/engine" ],
+            "@enums": [ "./src/app/Enums" ],
+            "@enums/*": [ "./src/app/Enums/*" ],
+            "@factory": [ "./src/app/Factory" ],
+            "@factory/*": [ "./src/app/Factory/*" ],
+            "@handlers": [ "./src/Handlers" ],
+            "@handlers/*": [ "./src/Handlers/*" ],
+            "@interfaces": [ "./src/Interfaces" ],
+            "@interfaces/*": [ "./src/Interfaces/*" ],
+            "@listeners": [ "./src/app/Listeners" ],
+            "@listeners/*": [ "./src/app/Listeners/*" ],
+            "@pages": [ "./src/Pages" ],
+            "@pages/*": [ "./src/Pages/*" ],
+            "@providers": [ "./src/app/Provider" ],
+            "@providers/*": [ "./src/app/Provider/*" ],
+            "@selectors": [ "./src/Selectors" ],
+            "@selectors/*": [ "./src/Selectors/*" ],
+            "@services": [ "./src/app/Services" ],
+            "@services/*": [ "./src/app/Services/*" ],
+            "~/*": [ "./src/*" ]
+        },
+        "rootDirs": [
+            ".",
+            "./src"
+        ],
+        "typeRoots": [
+            "./@types",
+            "node_modules/@types"
+        ],
+        "types": [ "node" ]
+    },
+    "exclude": [
+        "node_modules/",
+        "dist/"
+    ],
+    "extends": "@odg/tsconfig/tsconfig.node.json",
+    "include": [ "." ]
+}

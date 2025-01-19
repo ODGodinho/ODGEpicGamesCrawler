@@ -1,0 +1,16 @@
+{
+    "conventionalCommits.scopes": [
+        "Docker",
+        "Hooks",
+        "Code",
+        "Lint",
+        "Google",
+        "Tests",
+        "Upgrade",
+        "Config",
+        "Container"
+    ],
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "vitest.commandLine": "yarn test:watch",
+    "vitest.enable": true
+}
